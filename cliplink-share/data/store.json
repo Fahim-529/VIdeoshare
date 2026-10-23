@@ -1,0 +1,98 @@
+{
+  "links": [
+    {
+      "id": "lnk_demo_reel_01",
+      "slug": "dQw4w9WgXcQ",
+      "pathPrefix": "youtube.com/shorts",
+      "brand": "youtube",
+      "siteName": "YouTube",
+      "targetUrl": "https://www.youtube.com/shorts/dQw4w9WgXcQ",
+      "title": "Rick Astley - Never Gonna Give You Up (YouTube Short)",
+      "platform": "YouTube Short",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "redirectMode": "smart",
+      "createdAt": "2026-10-23T01:46:00.409Z"
+    }
+  ],
+  "clicks": [
+    {
+      "id": "clk_demo_01",
+      "linkId": "lnk_demo_reel_01",
+      "slug": "dQw4w9WgXcQ",
+      "timestamp": "2026-10-23T04:46:00.409Z",
+      "ip": "103.108.140.42",
+      "ipSource": "Client Public IP",
+      "isSimulated": true,
+      "info": {
+        "country": "Bangladesh",
+        "countryCode": "BD",
+        "regionName": "Khulna Division",
+        "city": "Khulna",
+        "zip": "9000",
+        "lat": 22.8456,
+        "lon": 89.5403,
+        "timezone": "Asia/Dhaka",
+        "isp": "Grameenphone Ltd.",
+        "org": "Grameenphone 4G Mobile Network",
+        "as": "AS24389 Grameenphone Ltd.",
+        "mobile": true,
+        "proxy": false,
+        "hosting": false
+      },
+      "device": {
+        "type": "Mobile Phone",
+        "brand": "Samsung",
+        "model": "Samsung Galaxy S24 Ultra (SM-S928B)",
+        "os": "Android 14",
+        "browser": "Instagram In-App Browser",
+        "screen": "412×915 @3.5x",
+        "gpu": "Adreno (TM) 750",
+        "connection": "4g",
+        "language": "en-US, bn-BD",
+        "timezone": "Asia/Dhaka"
+      },
+      "referrer": "https://l.instagram.com/",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-S928B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/129.0.6668.100 Mobile Safari/537.36 Instagram 352.0.0.41.100 Android"
+    },
+    {
+      "id": "clk_demo_02",
+      "linkId": "lnk_demo_reel_01",
+      "slug": "dQw4w9WgXcQ",
+      "timestamp": "2026-10-23T06:16:00.409Z",
+      "ip": "37.111.204.88",
+      "ipSource": "Client Public IP",
+      "isSimulated": true,
+      "info": {
+        "country": "Bangladesh",
+        "countryCode": "BD",
+        "regionName": "Dhaka Division",
+        "city": "Dhaka",
+        "zip": "1212",
+        "lat": 23.8103,
+        "lon": 90.4125,
+        "timezone": "Asia/Dhaka",
+        "isp": "Robi Axiata Limited",
+        "org": "Robi Cellular Data",
+        "as": "AS45245 Robi Axiata Limited",
+        "mobile": true,
+        "proxy": false,
+        "hosting": false
+      },
+      "device": {
+        "type": "Mobile Phone",
+        "brand": "Apple",
+        "model": "iPhone 15 Pro / 16 Pro (393×852 @3x)",
+        "os": "iOS 18.1",
+        "browser": "WhatsApp / Mobile Safari",
+        "screen": "393×852 @3x",
+        "gpu": "Apple GPU",
+        "connection": "4g",
+        "language": "en-GB",
+        "timezone": "Asia/Dhaka"
+      },
+      "referrer": "https://www.whatsapp.com/",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Mobile/15E148 Safari/604.1 WhatsApp/2.24.21.78"
+    }
+  ],
+  "ipCache": {}
+}

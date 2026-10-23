@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClipLink — Shorten &amp; Share Links</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <!-- Minimal Header -->
+    <header class="header">
+      <div class="logo">
+        <span>🔗 ClipLink</span>
+      </div>
+      <div class="live-status">
+        <span class="live-dot"></span>
+        <span>Live Feed</span>
+      </div>
+    </header>
+
+    <!-- Step 1: Paste Link -> Shorten -->
+    <section class="card">
+      <form class="shorten-form" id="shortenForm">
+        <input
+          type="text"
+          id="urlInput"
+          class="url-input"
+          placeholder="Paste YouTube Reel, Instagram, Facebook, TikTok, or website link..."
+          required
+        />
+        <select id="prefixSelect" class="style-select" title="Link Style">
+          <option value="auto">Auto Platform Style</option>
+          <option value="v">/v/ (Short)</option>
+          <option value="r">/r/ (Short)</option>
+          <option value="youtu.be">/youtu.be/</option>
+          <option value="youtube.com/shorts">/youtube.com/shorts/</option>
+          <option value="instagram.com/reel">/instagram.com/reel/</option>
+          <option value="fb.watch">/fb.watch/</option>
+          <option value="vt.tiktok.com">/vt.tiktok.com/</option>
+        </select>
+        <button type="submit" class="btn" id="shortenBtn">Shorten Link</button>
+      </form>
+
+      <!-- Active Shortened Link Box -->
+      <div class="result-box" id="resultBox">
+        <div class="result-label">
+          <span>Your Shortened Link</span>
+          <span id="destHint" class="dest-hint"></span>
+        </div>
+
+        <div class="short-link-row">
+          <span class="short-link-text" id="shortLinkText">Loading...</span>
+          <div class="result-actions">
+            <button type="button" class="btn btn-outline" id="copyBtn">Copy</button>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-outline" id="openBtn">Test Open ↗</a>
+          </div>
+        </div>
+
+        <!-- Saved Links Filter Pills -->
+        <div class="links-bar" id="linksBar"></div>
+      </div>
+    </section>
+
+    <!-- Step 2: Clicker IP Addresses Log -->
+    <section class="card">
+      <div class="section-head">
+        <div class="section-title">
+          <span>Link Opener IP Addresses</span>
+          <span class="count-badge" id="clickCountBadge">0</span>
+        </div>
+        <div style="display: flex; gap: 0.45rem;">
+          <button type="button" class="btn btn-outline" id="simBtn" title="Test a phone clicking the link">
+            + Test Phone Click
+          </button>
+          <button type="button" class="btn btn-outline" id="clearBtn">
+            Clear
+          </button>
+        </div>
+      </div>
+
+      <div class="ip-list" id="ipList">
+        <div class="empty-state">Loading...</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast">Copied!</div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
